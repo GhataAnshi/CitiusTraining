@@ -1,10 +1,10 @@
 provider "aws"{
-    access_key = "AKIAXC3FBB2OJJC3DUIP"
-    secret_key = "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"
+    access_key = "AKIAQTI2CRNTCCYBPT5W"
+    secret_key = "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"
     region = "ap-south-1"
 }
 
 resource "aws_instance"  "MyFirstInstance" {
-    ami = "	ami-03ab5f3b31d5ee063"
+    ami = "ami-041d6256ed0f2061c"
     instance_type = "t2.micro"
     }
